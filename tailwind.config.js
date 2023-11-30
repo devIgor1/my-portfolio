@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         bgPurple: "#0B021A",
+        gray: "#9B96B0",
       },
       backgroundImage: {
         "purple-gradient":
@@ -12,7 +13,7 @@ export default {
       },
       fontFamily: {
         poppins: ["Poppins"],
-        merriweather: ["Merriweather"],
+        nunitoSans: ["Nunito Sans", "san-serif"],
       },
     },
   },

@@ -16,7 +16,7 @@ export default function Home() {
                 <div className="flex gap-2 text-white">
                   <img
                     className="w-[18px] md:w-[25px] bg-white rounded"
-                    src="../../public/logo.png"
+                    src="/logo.png"
                     alt=""
                   />
                 </div>

@@ -14,6 +14,7 @@ export default {
       fontFamily: {
         poppins: ["Poppins"],
         nunitoSans: ["Nunito Sans", "san-serif"],
+        instrumentoSans: ["Instrument Sans", "sans-serif"],
       },
     },
   },

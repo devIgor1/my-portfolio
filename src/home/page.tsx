@@ -1,72 +1,19 @@
 import Container from "../components/container"
-import { GrProjects } from "react-icons/gr"
-import { FaPhoneAlt } from "react-icons/fa"
 import { SiStarship } from "react-icons/si"
-import { IoPeopleCircle } from "react-icons/io5"
-import nodeIcon from "../assets/node-js.svg"
-import cssIcon from "../assets/css.svg"
-import firebaseIcon from "../assets/firebase.png"
-import gitIcon from "../assets/git.svg"
-import htmlIcon from "../assets/html.svg"
-import javascriptIcon from "../assets/javascript.svg"
-import typescriptIcon from "../assets/typescript.png"
-import reactIcon from "../assets/react.svg"
-import postgreIcon from "../assets/postgresql.svg"
-import prismaIcon from "../assets/prisma.svg"
-import tailwindIcon from "../assets/tailwindcss.svg"
-import mongodbIcon from "../assets/mongodb.svg"
-import githubIcon from "../assets/github.png"
+import { KnowledgeSession } from "../components/knowledge"
+import { NavBar } from "../components/navbar"
 
 export default function Home() {
   return (
-    <main className="bg-bgPurple min-h-screen min-w-full w-full bg-purple-gradient bg-center">
+    <main className="bg-bgPurple min-h-screen min-w-full bg-purple-gradient">
       <Container>
         <div className="w-full min-h-screen bg-center">
           <div className="pt-10">
-            <div className="relative">
-              <div className="absolute blur inset-0 bg-white rounded-full"></div>
-              <nav className="relative font-poppins flex flex-row items-center border-t border-[#303034] justify-between h-[53px] px-5 bg-bgPurple rounded-full">
-                <div className="flex gap-2 text-white">
-                  <img
-                    className="w-[18px] md:w-[25px] bg-white rounded"
-                    src="/logo.png"
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <ul className="flex gap-5 font-poppins">
-                    <li className="flex items-center gap-2">
-                      <a className="text-sm lg:text-lg text-white hover:scale-105 cursor-pointer duration-300 flex items-center gap-2">
-                        <span className="max-[420px]:hidden">
-                          <GrProjects color="#fff" />
-                        </span>
-                        Projects
-                      </a>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="max-[420px]:hidden">
-                        <IoPeopleCircle color="#fff" size={25} />
-                      </span>
-                      <a className="text-sm lg:text-lg text-white  hover:scale-105 cursor-pointer duration-300 flex items-center gap-2">
-                        Social Media
-                      </a>
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <span className="max-[420px]:hidden">
-                        <FaPhoneAlt color="#fff" />
-                      </span>
-                      <a className="text-sm  lg:text-lg text-white  hover:scale-105 cursor-pointer duration-300 flex items-center gap-2">
-                        Contact
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
+            <NavBar />
             <div className="mt-72 flex items-center justify-center mb-5">
               <h1 className="text-gray text-4xl lg:text-5xl font-nunitoSans font-bold italic flex gap-2 max-[355px]:text-3xl">
                 <SiStarship />
-                Hi, I am Igor,
+                Hello I'm Igor,
               </h1>
             </div>
             <div className="flex items-center justify-center flex-col gap-5">
@@ -82,6 +29,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <KnowledgeSession />
       </Container>
     </main>
   )

@@ -18,11 +18,9 @@ import reactHookFormIcon from "../../assets/react-hook-form.png"
 export const KnowledgeSession = () => {
   return (
     <>
-      <div className="w-full flex items-center justify-center">
-        <h1 className="text-5xl font-instrumentoSans  bg-gradient-to-b from-slate-50 to-zinc-400 bg-clip-text text-transparent">
-          My Knowledge
-        </h1>
-      </div>
+      <h1 className="mt-10 text-5xl text-center font-instrumentoSans bg-gradient-to-b from-slate-50 to-zinc-400 bg-clip-text text-transparent">
+        My Knowledge
+      </h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-8 w-full mt-12 gap-20 font-poppins">
         <div className="relative">
           <section className="relative flex items-center flex-col">

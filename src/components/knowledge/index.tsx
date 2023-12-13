@@ -78,12 +78,6 @@ export const KnowledgeSession = () => {
 
         <section className="relative flex items-center flex-col">
           <div className="absolute blur-3xl inset-0 rounded-full"></div>
-          <img className="w-20" src={gitIcon} alt="gitIcon" />
-          <h1 className="text-lg text-white mt-2">Git</h1>
-        </section>
-
-        <section className="relative flex items-center flex-col">
-          <div className="absolute blur-3xl inset-0 rounded-full"></div>
           <img className="w-20" src={tailwindIcon} alt="tailwindIcon" />
           <h1 className="text-lg text-white mt-2">Tailwind</h1>
         </section>
@@ -92,6 +86,12 @@ export const KnowledgeSession = () => {
           <div className="absolute blur-3xl inset-0 rounded-full"></div>
           <img className="w-20" src={cssIcon} alt="cssIcon" />
           <h1 className="text-lg text-white mt-2">CSS</h1>
+        </section>
+
+        <section className="relative flex items-center flex-col">
+          <div className="absolute blur-3xl inset-0 rounded-full"></div>
+          <img className="w-20" src={gitIcon} alt="gitIcon" />
+          <h1 className="text-lg text-white mt-2">Git</h1>
         </section>
 
         <section className="relative flex items-center flex-col">

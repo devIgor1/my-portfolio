@@ -45,9 +45,7 @@ export const CartEcommerce = () => {
       >
         <div className="flex items-center justify-center mt-10 md:mt-0">
           <img
-            className={`w-[105px] duration-300 ${
-              isHovered ? "-rotate-12" : ""
-            }`}
+            className={`w-[105px] duration-300 ${isHovered ? "rotate-12" : ""}`}
             src={cartEcommerceLogo}
             alt="ecommerceCart-logo"
           />

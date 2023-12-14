@@ -15,6 +15,7 @@ export default {
         poppins: ["Poppins"],
         nunitoSans: ["Nunito Sans", "san-serif"],
         instrumentoSans: ["Instrument Sans", "sans-serif"],
+        neon: ["Neon"],
       },
     },
   },

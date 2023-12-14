@@ -3,6 +3,7 @@ import { SiStarship } from "react-icons/si"
 import { KnowledgeSession } from "../components/knowledge"
 import { NavBar } from "../components/navbar"
 import { Projects } from "../components/projects"
+import { FaArrowDown } from "react-icons/fa"
 
 export default function Home() {
   return (
@@ -30,6 +31,9 @@ export default function Home() {
               >
                 About me
               </a>
+              <span className="animate-bounce">
+                <FaArrowDown size={28} color="#fff" />
+              </span>
             </div>
           </div>
         </div>

@@ -4,6 +4,7 @@ import { KnowledgeSession } from "../components/knowledge"
 import { NavBar } from "../components/navbar"
 import { Projects } from "../components/projects"
 import { FaArrowDown } from "react-icons/fa"
+import { Contact } from "../components/contact/Contact"
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
         </div>
         <KnowledgeSession />
         <Projects />
+        <Contact />
       </Container>
     </main>
   )

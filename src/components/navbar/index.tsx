@@ -25,10 +25,10 @@ export const NavBar = () => {
               </a>
             </li>
             <li className="flex items-center gap-2">
-              <span className="max-[420px]:hidden">
-                <IoPeopleCircle color="#fff" size={25} />
-              </span>
               <a className="text-sm lg:text-lg text-white  hover:scale-105 cursor-pointer duration-300 flex items-center gap-2">
+                <span className="max-[420px]:hidden">
+                  <IoPeopleCircle color="#fff" size={25} />
+                </span>
                 Social Media
               </a>
             </li>

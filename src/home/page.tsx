@@ -2,6 +2,7 @@ import Container from "../components/container"
 import { SiStarship } from "react-icons/si"
 import { KnowledgeSession } from "../components/knowledge"
 import { NavBar } from "../components/navbar"
+import { Projects } from "../components/projects"
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
           </div>
         </div>
         <KnowledgeSession />
+        <Projects />
       </Container>
     </main>
   )

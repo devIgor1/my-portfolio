@@ -3,7 +3,7 @@ import button from "../../assets/sendButton.png"
 
 export const Contact = () => {
   return (
-    <>
+    <div id="contact">
       <div className="flex flex-col md:flex-row items-center justify-between mt-96">
         <section className="w-[620px] max-w-full">
           <form className="flex flex-col w-full font-poppins">
@@ -33,6 +33,6 @@ export const Contact = () => {
           />
         </section>
       </div>
-    </>
+    </div>
   )
 }

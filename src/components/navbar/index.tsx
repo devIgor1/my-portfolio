@@ -3,6 +3,10 @@ import { GrProjects } from "react-icons/gr"
 import logo from "../../assets/I LOGO.png"
 
 export const NavBar = () => {
+  const handleNavClick = (id: string) => {
+    document.getElementById(id)
+  }
+
   return (
     <>
       <div className="relative">
@@ -13,7 +17,11 @@ export const NavBar = () => {
           <div>
             <ul className="flex gap-5 font-neon">
               <li className="flex items-center gap-2">
-                <a className="text-sm lg:text-lg  hover:scale-105 cursor-pointer duration-300 flex items-center gap-2 bg-gradient-to-t from-violet-900 to-violet-50 bg-clip-text text-transparent">
+                <a
+                  onClick={() => handleNavClick("projects")}
+                  href="#projects"
+                  className="text-sm lg:text-lg  hover:scale-105 cursor-pointer duration-300 flex items-center gap-2 bg-gradient-to-t from-violet-900 to-violet-50 bg-clip-text text-transparent"
+                >
                   <span className="max-[420px]:hidden">
                     <GrProjects color="#fffafa" />
                   </span>
@@ -24,7 +32,11 @@ export const NavBar = () => {
                 <span className="max-[420px]:hidden">
                   <FaPhoneAlt color="#fffafa" />
                 </span>
-                <a className="text-sm  lg:text-lg hover:scale-105 cursor-pointer duration-300 flex items-center gap-2 bg-gradient-to-t from-violet-900 to-violet-50 bg-clip-text text-transparent">
+                <a
+                  onClick={() => handleNavClick("contact")}
+                  href="#contact"
+                  className="text-sm  lg:text-lg hover:scale-105 cursor-pointer duration-300 flex items-center gap-2 bg-gradient-to-t from-violet-900 to-violet-50 bg-clip-text text-transparent"
+                >
                   Contact
                 </a>
               </li>

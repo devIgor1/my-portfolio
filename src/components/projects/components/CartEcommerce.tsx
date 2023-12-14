@@ -33,7 +33,7 @@ export const CartEcommerce = () => {
             <img
               className="w-[500px] rounded-lg shadow-[0_0px_20px_rgba(100,_42,_190,_0.9)] hover:scale-105 duration-300"
               src={cartEcommerceMockup}
-              alt="dev-control-project"
+              alt="ecommerce-cart-project"
             />
           </a>
         </div>
@@ -49,7 +49,7 @@ export const CartEcommerce = () => {
               isHovered ? "-rotate-12" : ""
             }`}
             src={cartEcommerceLogo}
-            alt="logo-web-cars"
+            alt="ecommerceCart-logo"
           />
           <h1 className="text-4xl bg-gradient-to-b from-slate-50 to-zinc-400 bg-clip-text text-transparent font-poppins">
             Ecommerce Cart

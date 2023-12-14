@@ -1,6 +1,5 @@
 import { FaPhoneAlt } from "react-icons/fa"
 import { GrProjects } from "react-icons/gr"
-import { IoPeopleCircle } from "react-icons/io5"
 import logo from "../../assets/I LOGO.png"
 
 export const NavBar = () => {

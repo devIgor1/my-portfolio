@@ -27,7 +27,7 @@ export default function Home() {
                 Developer
               </h1>
               <a
-                href="/me"
+                href="#"
                 className="font-poppins bg-[#c35dd810] min-w-xl flex items-center hover:text-purewhite  hover:bg-[#c35dd830] text-sm md:text-md 2xl:text-md text-white px-5 py-[8px]  md:px-6 md:py-2 transition-all  ease-in-out duration-300 rounded-full shadow-inner shadow-[#bf97ff70] border border-[#816bac] cursor-pointer"
               >
                 About me

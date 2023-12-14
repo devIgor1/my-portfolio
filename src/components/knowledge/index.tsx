@@ -23,97 +23,82 @@ export const KnowledgeSession = () => {
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-8 w-full mt-12 gap-20 font-poppins">
         <div className="relative">
-          <section className="relative flex items-center flex-col">
+          <section className="relative flex items-center flex-col hover:scale-110 duration-300">
             <img className="w-20" src={reactIcon} alt="nodeIcon" />
             <h1 className="text-lg text-white mt-2">React</h1>
           </section>
         </div>
-        <section className="relative flex items-center flex-col">
-          <div className="absolute blur-3xl inset-0 rounded-full"></div>
+        <section className="relative flex items-center flex-col hover:scale-110 duration-300">
           <img className="w-20" src={nextIcon} alt="nextIcon" />
           <h1 className="text-lg text-white mt-2">Next</h1>
         </section>
 
-        <section className="relative flex items-center flex-col">
-          <div className="absolute blur-3xl inset-0 rounded-full"></div>
+        <section className="relative flex items-center flex-col hover:scale-110 duration-300">
           <img className="w-20" src={typescriptIcon} alt="typescriptIcon" />
           <h1 className="text-lg text-white mt-2">Typescript</h1>
         </section>
 
-        <section className="relative flex items-center flex-col">
-          <div className="absolute blur-3xl inset-0 rounded-full"></div>
+        <section className="relative flex items-center flex-col hover:scale-110 duration-300">
           <img className="w-20" src={javascriptIcon} alt="javascriptIcon" />
           <h1 className="text-lg text-white mt-2">Javascript</h1>
         </section>
 
-        <section className="relative flex items-center flex-col">
-          <div className="absolute blur-3xl inset-0 rounded-full"></div>
+        <section className="relative flex items-center flex-col hover:scale-110 duration-300">
           <img className="w-20" src={mongodbIcon} alt="mongodbIcon" />
           <h1 className="text-lg text-white mt-2">MongoDB</h1>
         </section>
 
-        <section className="relative flex items-center flex-col">
-          <div className="absolute blur-3xl inset-0 rounded-full"></div>
+        <section className="relative flex items-center flex-col hover:scale-110 duration-300">
           <img className="w-20" src={firebaseIcon} alt="firebaseIcon" />
           <h1 className="text-lg text-white mt-2">Firebase</h1>
         </section>
 
-        <section className="relative flex items-center flex-col">
-          <div className="absolute blur-3xl inset-0 rounded-full"></div>
+        <section className="relative flex items-center flex-col hover:scale-110 duration-300">
           <img className="w-20" src={postgreIcon} alt="postgresqlIcon" />
           <h1 className="text-lg text-white mt-2">PostgreSQL</h1>
         </section>
 
-        <section className="relative flex items-center flex-col">
-          <div className="absolute blur-3xl inset-0 rounded-full"></div>
+        <section className="relative flex items-center flex-col hover:scale-110 duration-300">
           <img className="w-20" src={prismaIcon} alt="prismaIcon" />
           <h1 className="text-lg text-white mt-2">Prisma</h1>
         </section>
 
-        <section className="relative flex items-center flex-col">
-          <div className="absolute blur-3xl inset-0 rounded-full"></div>
+        <section className="relative flex items-center flex-col hover:scale-110 duration-300">
           <img className="w-20" src={htmlIcon} alt="htmlIcon" />
           <h1 className="text-lg text-white mt-2">HTML</h1>
         </section>
 
-        <section className="relative flex items-center flex-col">
-          <div className="absolute blur-3xl inset-0 rounded-full"></div>
+        <section className="relative flex items-center flex-col hover:scale-110 duration-300">
           <img className="w-20" src={tailwindIcon} alt="tailwindIcon" />
           <h1 className="text-lg text-white mt-2">Tailwind</h1>
         </section>
 
-        <section className="relative flex items-center flex-col">
-          <div className="absolute blur-3xl inset-0 rounded-full"></div>
+        <section className="relative flex items-center flex-col hover:scale-110 duration-300">
           <img className="w-20" src={cssIcon} alt="cssIcon" />
           <h1 className="text-lg text-white mt-2">CSS</h1>
         </section>
 
-        <section className="relative flex items-center flex-col">
-          <div className="absolute blur-3xl inset-0 rounded-full"></div>
+        <section className="relative flex items-center flex-col hover:scale-110 duration-300">
           <img className="w-20" src={gitIcon} alt="gitIcon" />
           <h1 className="text-lg text-white mt-2">Git</h1>
         </section>
 
-        <section className="relative flex items-center flex-col">
-          <div className="absolute blur-3xl inset-0 rounded-full"></div>
+        <section className="relative flex items-center flex-col hover:scale-110 duration-300">
           <img className="w-20" src={githubIcon} alt="githubIcon" />
           <h1 className="text-lg text-white mt-2">GitHub</h1>
         </section>
 
-        <section className="relative flex items-center flex-col">
-          <div className="absolute blur-3xl inset-0 rounded-full"></div>
+        <section className="relative flex items-center flex-col hover:scale-110 duration-300">
           <img className="w-20" src={nodeIcon} alt="nodeIcon" />
           <h1 className="text-lg text-white mt-2">Node</h1>
         </section>
 
-        <section className="relative flex items-center flex-col">
-          <div className="absolute blur-3xl inset-0 rounded-full"></div>
+        <section className="relative flex items-center flex-col hover:scale-110 duration-300">
           <img className="w-20" src={zodIcon} alt="zodIcon" />
           <h1 className="text-lg text-white mt-2">Zod</h1>
         </section>
 
-        <section className="relative flex items-center flex-col">
-          <div className="absolute blur-3xl inset-0 rounded-full"></div>
+        <section className="relative flex items-center flex-col hover:scale-110 duration-300">
           <img
             className="w-20"
             src={reactHookFormIcon}

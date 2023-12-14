@@ -2,6 +2,7 @@ import { FormEvent, useState } from "react"
 import contact from "../../assets/contact.jpg"
 import button from "../../assets/sendButton.png"
 import emailJs from "@emailjs/browser"
+import toast from "react-hot-toast"
 
 export const Contact = () => {
   const [email, setEmail] = useState<string>("")
@@ -11,7 +12,15 @@ export const Contact = () => {
     e.preventDefault()
 
     if (!email || !message) {
-      alert("Please Fill in All Fields")
+      toast.error("Please Fill in All Fields", {
+        style: {
+          borderRadius: "8px",
+          background: "#0B021A",
+          color: "#FFFFFF",
+          border: "1px solid #ffffff",
+        },
+      })
+
       return
     }
 
@@ -28,7 +37,7 @@ export const Contact = () => {
         "BI2LsbjFEQplx7iwi"
       )
       .then(() => {
-        alert("Send")
+        toast.success("Email successfully sent")
         setEmail("")
         setMessage("")
       })

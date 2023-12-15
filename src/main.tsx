@@ -7,7 +7,7 @@ import { AboutMe } from "./components/about/index.tsx"
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/*",
     element: <App />,
   },
   {

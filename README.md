@@ -1,2 +1,1 @@
-# Portfolio em desenvolvimento
-
+# my extraordinary, ordinary portfolio.

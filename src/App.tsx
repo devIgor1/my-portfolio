@@ -1,5 +1,4 @@
 import Home from "./home/page"
-import { Toaster } from "react-hot-toast"
 import { createBrowserRouter } from "react-router-dom"
 import { Layout } from "./layout"
 import { AboutMe } from "./components/about"

@@ -37,7 +37,7 @@ export const Contact = () => {
         "BI2LsbjFEQplx7iwi"
       )
       .then(() => {
-        toast.success("Email successfully sent")
+        toast.success("Email Successfully Sent!")
         setEmail("")
         setMessage("")
       })

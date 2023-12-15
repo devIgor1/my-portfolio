@@ -55,7 +55,7 @@ export const AboutMe = () => {
                 <span className="font-bold bg-gradient-to-b from-zinc-100 to-fuchsia-600 bg-clip-text text-transparent">
                   dedicated
                 </span>{" "}
-                person who loves studying and making the most out of my life,
+                person who loves studying and making the most out of my life,{" "}
                 <span className="font-bold bg-gradient-to-b from-zinc-100 to-fuchsia-600 bg-clip-text text-transparent">
                   helping
                 </span>{" "}
@@ -75,7 +75,7 @@ export const AboutMe = () => {
             </section>
           </div>
           <div>
-            <h1 className="mt-10 text-center text-4xl md:text-5xl font-instrumentoSans bg-gradient-to-b from-slate-50 to-zinc-400 bg-clip-text text-transparent">
+            <h1 className="mt-10 ml-10 flex items-center justify-center text-4xl md:text-5xl font-instrumentoSans bg-gradient-to-b from-slate-50 to-zinc-400 bg-clip-text text-transparent">
               Socials
             </h1>
             <div className="flex items-center justify-center">

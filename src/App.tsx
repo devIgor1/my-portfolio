@@ -1,13 +1,24 @@
 import Home from "./home/page"
 import { Toaster } from "react-hot-toast"
+import { createBrowserRouter } from "react-router-dom"
+import { Layout } from "./layout"
+import { AboutMe } from "./components/about"
 
-function App() {
-  return (
-    <>
-      <Home />
-      <Toaster position="bottom-center" />
-    </>
-  )
-}
+const router = createBrowserRouter([
+  {
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/me",
+        element: <AboutMe />,
+      },
+    ],
+  },
+  {},
+])
 
-export default App
+export { router }

@@ -17,6 +17,9 @@ export default {
         instrumentoSans: ["Instrument Sans", "sans-serif"],
         neon: ["Neon"],
       },
+      animation: {
+        moveHorizontal: "moveHorizontal 2s infinite",
+      },
     },
   },
   plugins: [],

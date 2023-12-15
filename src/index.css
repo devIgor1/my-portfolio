@@ -16,3 +16,15 @@
 html {
   scroll-behavior: smooth;
 }
+
+@keyframes moveHorizontal {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

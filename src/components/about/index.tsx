@@ -3,16 +3,17 @@ import linkedIn from "../../assets/linkedIn.png"
 import instagram from "../../assets/instagram.png"
 import { IoArrowBackOutline } from "react-icons/io5"
 import github from "../../assets/githublogo.png"
+import { Link } from "react-router-dom"
 
 export const AboutMe = () => {
   return (
     <>
       <main className="bg-bgPurple min-h-screen min-w-full bg-purple-gradient">
         <div className="text-xl md:text-2xl flex items-center justify-center pt-10 pb-52 md:pb-0 bg-gradient-to-b from-slate-50 to-zinc-400 bg-clip-text text-transparent flex-col font-poppins font-bold">
-          <a href="/">Back to Home</a>
-          <a href="/" className="animate-moveHorizontal">
+          <Link to="/">Back to Home</Link>
+          <Link to="/" className="animate-moveHorizontal">
             <IoArrowBackOutline size={40} color="#fff" />
-          </a>
+          </Link>
         </div>
         <div className="w-full min-h-screen bg-center">
           <div className="flex flex-col md:flex-row items-center justify-center min-h-screen w-full gap-20">

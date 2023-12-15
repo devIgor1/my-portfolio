@@ -5,6 +5,7 @@ import { NavBar } from "../components/navbar"
 import { Projects } from "../components/projects"
 import { FaArrowDown } from "react-icons/fa"
 import { Contact } from "../components/contact/Contact"
+import { Link } from "react-router-dom"
 
 export default function Home() {
   return (
@@ -27,12 +28,12 @@ export default function Home() {
                 <h1 className="text-5xl lg:text-6xl font-bold bg-gradient-to-b from-slate-50 to-zinc-400 bg-clip-text text-transparent max-[355px]:text-4xl">
                   Developer
                 </h1>
-                <a
-                  href="/me"
+                <Link
+                  to="/me"
                   className="font-poppins bg-[#c35dd810] min-w-xl flex items-center hover:text-purewhite  hover:bg-[#c35dd830] text-sm md:text-md 2xl:text-md text-white px-5 py-[8px]  md:px-6 md:py-2 transition-all  ease-in-out duration-300 rounded-full shadow-inner shadow-[#bf97ff70] border border-[#816bac] cursor-pointer"
                 >
                   About me
-                </a>
+                </Link>
                 <span className="animate-bounce">
                   <FaArrowDown size={28} color="#fff" />
                 </span>

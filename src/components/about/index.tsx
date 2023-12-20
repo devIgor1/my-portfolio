@@ -79,7 +79,10 @@ export const AboutMe = () => {
               Socials
             </h1>
             <div className="flex items-center justify-center">
-              <a href="https://www.instagram.com/igormr6/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/igor-moraes-rocha/"
+                target="_blank"
+              >
                 <img
                   src={linkedIn}
                   alt="linkedin-logo"

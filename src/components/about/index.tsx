@@ -90,10 +90,7 @@ export const AboutMe = () => {
                 />
               </a>
               <div className="mb-12">
-                <a
-                  href="https://www.linkedin.com/in/igor-moraes-rocha/"
-                  target="_blank"
-                >
+                <a href="https://www.instagram.com/igormr6/" target="_blank">
                   <img
                     src={instagram}
                     alt="instagram-logo"

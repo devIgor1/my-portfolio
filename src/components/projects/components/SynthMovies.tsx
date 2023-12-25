@@ -74,6 +74,7 @@ export const SynthMovies = () => {
                 <li>JWT</li>
                 <li>Bcrypt</li>
                 <li>Prisma</li>
+                <li>Moment</li>
               </ul>
             </section>
           </div>

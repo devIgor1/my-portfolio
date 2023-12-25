@@ -12,10 +12,7 @@ export const WebCars = () => {
   }
 
   return (
-    <div className="mt-48 ">
-      <h1 className="text-5xl text-center font-instrumentoSans bg-gradient-to-b from-slate-50 to-zinc-400 bg-clip-text text-transparent">
-        Some of My Projects
-      </h1>
+    <div>
       <div className="w-full flex-col  md:flex-row flex items-center justify-between mt-20">
         <section>
           <a

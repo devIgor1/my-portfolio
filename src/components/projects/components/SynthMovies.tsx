@@ -1,7 +1,5 @@
 import { useState } from "react"
 import githubLogo from "../../../assets/octocatLogo.png"
-import cartEcommerceMockup from "../../../assets/PROJECT-3.png"
-import cartEcommerceLogo from "../../../assets/cartEcommerceLogo.png"
 import { IoIosArrowForward } from "react-icons/io"
 import synthMoviesLogo from "../../../assets/synthMovies.png"
 import synthMoviesMockup from "../../../assets/synth-movies.png"

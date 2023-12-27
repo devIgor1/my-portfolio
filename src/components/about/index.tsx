@@ -59,7 +59,7 @@ export const AboutMe = () => {
                 <span className="font-bold bg-gradient-to-b from-zinc-100 to-fuchsia-600 bg-clip-text text-transparent">
                   helping
                 </span>{" "}
-                others, and{" "}
+                others and{" "}
                 <span className="font-bold bg-gradient-to-b from-zinc-100 to-fuchsia-600 bg-clip-text text-transparent">
                   chasing
                 </span>{" "}

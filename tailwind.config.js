@@ -7,6 +7,9 @@ export default {
         bgPurple: "#0B021A",
         gray: "#9B96B0",
       },
+      backgroundImage: {
+        starsBg: "url('./src/assets/bg-stars.png')",
+      },
 
       fontFamily: {
         poppins: ["Poppins"],

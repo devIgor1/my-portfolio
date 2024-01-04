@@ -10,7 +10,7 @@ import { Link } from "react-router-dom"
 export default function Home() {
   return (
     <>
-      <main className="bg-bgPurple min-h-screen min-w-full bg-purple-gradient">
+      <main className="bg-bgPurple min-h-screen min-w-full bg-purple-gradient bg-starsBg">
         <Container>
           <div className="w-full min-h-screen bg-center">
             <div className="pt-10">

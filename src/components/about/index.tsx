@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
 export const AboutMe = () => {
   return (
     <>
-      <main className="bg-bgPurple min-h-screen min-w-full bg-purple-gradient">
+      <main className="bg-bgPurple min-h-screen min-w-full bg-purple-gradient bg-starsBg">
         <div className="text-xl md:text-2xl flex items-center justify-center pt-10 pb-52 md:pb-0 bg-gradient-to-b from-slate-50 to-zinc-400 bg-clip-text text-transparent flex-col font-poppins font-bold">
           <Link to="/">Back to Home</Link>
           <Link to="/" className="animate-moveHorizontal">

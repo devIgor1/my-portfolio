@@ -8,7 +8,7 @@ export default {
         gray: "#9B96B0",
       },
       backgroundImage: {
-        bgStars: "url('./src/assets/bg-stars.png')",
+        stars: "url('./src/assets/stars-bg.png')",
       },
 
       fontFamily: {

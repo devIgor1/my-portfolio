@@ -11,11 +11,11 @@ export const NavBar = () => {
     <>
       <div className="relative">
         <div className="absolute blur inset-0 bg-white rounded-full animate-pulse"></div>
-        <nav className="relative flex flex-row items-center border-t border-[#303034] justify-between h-[45px] px-5 bg-bgPurple rounded-full">
+        <nav className="relative flex flex-row items-center border-t border-[#303034] justify-between h-[45px] px-5 bg-bgPurple rounded-full ">
           <img className="w-[25px] md:w-[60px]" src={logo} alt="" />
           <div className="flex gap-2 text-white"></div>
           <div>
-            <ul className="flex gap-5 font-neon">
+            <ul className="flex gap-5 font-nunitoSans">
               <li className="flex items-center gap-2">
                 <a
                   onClick={() => handleNavClick("projects")}

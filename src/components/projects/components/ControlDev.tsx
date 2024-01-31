@@ -12,7 +12,7 @@ export const ControlDev = () => {
   }
 
   return (
-    <div className="w-full flex-col  md:flex-row flex items-center justify-between mt-36">
+    <div className="w-full flex-col  md:flex-row flex items-center justify-between mt-28">
       <section>
         <div>
           <a

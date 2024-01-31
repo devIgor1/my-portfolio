@@ -13,7 +13,7 @@ export const WebCars = () => {
 
   return (
     <div>
-      <div className="w-full flex-col  md:flex-row flex items-center justify-between mt-20">
+      <div className="w-full flex-col  md:flex-row flex items-center justify-between mt-28">
         <section>
           <a
             href="https://github.com/devIgor1/web-cars/"

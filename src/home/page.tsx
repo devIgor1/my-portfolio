@@ -22,10 +22,10 @@ export default function Home() {
                 </h1>
               </div>
               <div className="flex items-center justify-center flex-col gap-5">
-                <h1 className="text-5xl lg:text-6xl font-bold bg-gradient-to-b from-slate-50 to-zinc-300 bg-clip-text text-transparent max-[355px]:text-4xl">
+                <h1 className="text-5xl lg:text-6xl font-poppins font-bold bg-gradient-to-b from-slate-50 to-zinc-300 bg-clip-text text-transparent max-[355px]:text-4xl">
                   Full-Stack
                 </h1>
-                <h1 className="text-5xl lg:text-6xl font-bold bg-gradient-to-b from-slate-50 to-zinc-400 bg-clip-text text-transparent max-[355px]:text-4xl">
+                <h1 className="text-5xl lg:text-6xl font-poppins font-bold bg-gradient-to-b from-slate-50 to-zinc-400 bg-clip-text text-transparent max-[355px]:text-4xl">
                   Developer
                 </h1>
                 <Link

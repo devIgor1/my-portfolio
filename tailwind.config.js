@@ -16,6 +16,7 @@ export default {
         nunitoSans: ["Nunito Sans", "san-serif"],
         instrumentoSans: ["Instrument Sans", "sans-serif"],
         neon: ["Neon"],
+        pally: "Pally",
       },
       animation: {
         moveHorizontal: "moveHorizontal 2s infinite",

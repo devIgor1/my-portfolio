@@ -53,22 +53,22 @@ export const WebCars = () => {
           </div>
           <div className="flex items-center">
             <div className="flex items-center font-instrumentoSans p-5">
-              <section className="flex items-center justify-center font-poppins">
+              <section className="flex flex-col md:flex-row md:items-center md:justify-center font-poppins">
                 <h3 className="text-2xl bg-gradient-to-b from-slate-50 to-zinc-300 bg-clip-text text-transparent max-[355px]:text-4xl">
                   Technologies
                 </h3>
-                <span className="text-slate-100/20">
+                <span className="text-slate-100/20 mx-auto md:mx-0 rotate-90 md:rotate-0">
                   <IoIosArrowForward size={50} />
                 </span>
                 <ul className="bg-gradient-to-b from-slate-50 to-zinc-400 bg-clip-text text-transparent text-lg">
-                  <li>React</li>
-                  <li>Typescript</li>
-                  <li>Firebase</li>
-                  <li>React-Router-Dom</li>
-                  <li>React-Hook-Form</li>
-                  <li>Zod</li>
-                  <li>Swiper</li>
-                  <li>TailwindCSS</li>
+                  <li>- React</li>
+                  <li>- Typescript</li>
+                  <li>- Firebase</li>
+                  <li>- React-Router-Dom</li>
+                  <li>- React-Hook-Form</li>
+                  <li>- Zod</li>
+                  <li>- Swiper</li>
+                  <li>- TailwindCSS</li>
                 </ul>
               </section>
             </div>

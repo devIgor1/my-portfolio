@@ -15,12 +15,12 @@ export const NavBar = () => {
           <img className="w-[25px] md:w-[60px]" src={logo} alt="" />
           <div className="flex gap-2 text-white"></div>
           <div>
-            <ul className="flex gap-5 font-nunitoSans">
+            <ul className="flex gap-5 ">
               <li className="flex items-center gap-2">
                 <a
                   onClick={() => handleNavClick("projects")}
                   href="#projects"
-                  className="text-sm lg:text-lg  hover:scale-105 cursor-pointer duration-300 flex items-center gap-2 bg-gradient-to-t from-violet-900 to-violet-50 bg-clip-text text-transparent"
+                  className="text-sm lg:text-lg  hover:scale-105 cursor-pointer duration-300 flex items-center gap-2 text-white"
                 >
                   <span className="max-[420px]:hidden">
                     <GrProjects color="#fffafa" />
@@ -35,7 +35,7 @@ export const NavBar = () => {
                 <a
                   onClick={() => handleNavClick("contact")}
                   href="#contact"
-                  className="text-sm  lg:text-lg hover:scale-105 cursor-pointer duration-300 flex items-center gap-2 bg-gradient-to-t from-violet-900 to-violet-50 bg-clip-text text-transparent"
+                  className="text-sm  lg:text-lg hover:scale-105 cursor-pointer duration-300 flex items-center gap-2 text-white"
                 >
                   Contact
                 </a>

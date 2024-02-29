@@ -1,6 +1,5 @@
 import { WebCars } from "./components/WebCars"
 import { ControlDev } from "./components/ControlDev"
-import { CartEcommerce } from "./components/CartEcommerce"
 import { SynthMovies } from "./components/SynthMovies"
 import { DigitalSea } from "./components/DigitalSea"
 
@@ -14,7 +13,6 @@ export const Projects = () => {
       <SynthMovies />
       <WebCars />
       <ControlDev />
-      <CartEcommerce />
     </div>
   )
 }

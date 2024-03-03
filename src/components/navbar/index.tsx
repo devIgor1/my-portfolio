@@ -20,22 +20,22 @@ export const NavBar = () => {
                 <a
                   onClick={() => handleNavClick("projects")}
                   href="#projects"
-                  className="text-sm lg:text-lg  hover:scale-105 cursor-pointer duration-300 flex items-center gap-2 text-white"
+                  className="text-sm lg:text-lg  hover:scale-105 cursor-pointer duration-300 flex items-center gap-2 bg-gradient-to-b from-slate-50 to-zinc-300 bg-clip-text text-transparent"
                 >
-                  <span className="max-[420px]:hidden">
-                    <GrProjects color="#fffafa" />
+                  <span className="max-[420px]:hidden text-zinc-400">
+                    <GrProjects />
                   </span>
                   Projects
                 </a>
               </li>
-              <li className="flex items-center gap-2">
-                <span className="max-[420px]:hidden">
-                  <FaPhoneAlt color="#fffafa" />
+              <li className="flex items-center gap-2 hover:scale-105 duration-300">
+                <span className="max-[420px]:hidden text-zinc-400">
+                  <FaPhoneAlt />
                 </span>
                 <a
                   onClick={() => handleNavClick("contact")}
                   href="#contact"
-                  className="text-sm  lg:text-lg hover:scale-105 cursor-pointer duration-300 flex items-center gap-2 text-white"
+                  className="text-sm  lg:text-lg hover:scale-105 cursor-pointer duration-300 flex items-center gap-2 bg-gradient-to-b from-slate-50 to-zinc-300 bg-clip-text text-transparent"
                 >
                   Contact
                 </a>
